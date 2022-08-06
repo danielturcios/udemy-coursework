@@ -1,32 +1,48 @@
-/* * {
+/* Global selector
+ * {
     background-color: whitesmoke;
 } */
-
+/* Element selector */
 body {
     background-color: #f1faee;
 }
 
+/* Element selector */
 button {
     font-size: 30px;
     background-color: #a8dadc;
 }
 
+/* Element selector */
 h1,
 h2 {
     color: #1d3557;
 }
 
+/* ID selector */
 #signup {
     background-color: #1d3557;
     color: #f1faee;
 }
 
+/* Element selector */
 span {
     color: #457b9d;
 }
 
+/* Class selector */
 .tag {
     background-color: #e63946;
     color: #f1faee;
     font-size: 16px;
+}
+
+/* Descendant selector */
+.post a {
+    color: #457b9d;
+}
+
+/* Descendant selector */
+footer a {
+    color: #e63946;
 }
