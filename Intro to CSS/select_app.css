@@ -56,3 +56,13 @@ h2+button {
 footer>a {
     color: #457b9d;
 }
+
+/* Attribute selector */
+input[type="password"] {
+    color: greenyellow;
+}
+
+/* Attribute selector */
+a[href*="google"] {
+    color: magenta;
+}
