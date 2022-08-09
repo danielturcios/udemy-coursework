@@ -40,6 +40,8 @@ span {
 /* Descendant selector */
 .post a {
     color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* Descendant selector */
@@ -65,4 +67,22 @@ input[type="password"] {
 /* Attribute selector */
 a[href*="google"] {
     color: magenta;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+/* Every other post starting with first post */
+.post:nth-of-type(2n-1) {
+    background-color: #dfe8dc;
 }
