@@ -11,3 +11,7 @@ Percentages
     - E.g.: width: 50% = half the width of the parent
     - E.g.: line-height: 50% = half the font-size of the element itself
 
+EM
+- EM's are relative units
+    - With font-size, 1em equals the font-size of the parent. 2em's is twice the font-siz of the parent, etc.
+    - With other properties, 1em is equal to the computed font-size of the element itself.
