@@ -18,6 +18,9 @@ tr_index.html <--> tr_app.css (css transformation example)
 back_index.html <--> back_app.css (css background example)  
 font_index.html <--> font_app.css  (google fonts example)   
   
+Section 10: Responsive CSS & Flexbox  
+direct_index.html <--> direct_app.css (css flex-direction example)  
+
 CodeAlongs:  
 button.html <--> button.css  
 blog.html <--> blog.css
