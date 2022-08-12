@@ -13,3 +13,5 @@ units_index.html <--> units_app.css
 Section 9: Other CSS Properties  
 opacity_index.html <--> opacity_app.css
 pos_index.html <--> pos_app.css
+t_index.html <--> t_app.css (css transitions example)  
+tr_index.html <--> tr_app.css (css transformation example)    
