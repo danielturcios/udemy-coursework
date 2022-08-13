@@ -20,7 +20,8 @@ font_index.html <--> font_app.css  (google fonts example)
   
 Section 10: Responsive CSS & Flexbox  
 direct_index.html <--> direct_app.css (css flex-direction example)  
-
+query_index.html <--> query_app.css (media queries example)  
+  
 CodeAlongs:  
 button.html <--> button.css  
 blog.html <--> blog.css
