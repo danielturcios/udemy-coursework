@@ -67,7 +67,7 @@
       </div>
       <div class="col-md-6 text-center order-1 order-md-2">
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
             <h2>MUSEUM OF CANDY</h2>
             <img src="imgs/lolli_icon.png" class="img-fluid d-none d-lg-inline" alt="">
             <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio voluptatibus odit quasi
@@ -83,12 +83,9 @@
       </div>
     </div>
     <div class="row align-items-center content">
-      <div class="col-md-6 order-1 order-md-2">
-        <img src="imgs/gumball.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-md-6 text-center order-2 order-md-1">
+      <div class="col-md-6 text-center">
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
             <h2>MUSEUM OF CANDY</h2>
             <img src="imgs/lolli_icon.png" class="img-fluid d-none d-lg-inline" alt="">
             <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio voluptatibus odit quasi
@@ -101,15 +98,18 @@
               fuga vel?</p>
           </div>
         </div>
+      </div>
+      <div class="col-md-6">
+        <img src="imgs/gumball.png" class="img-fluid" alt="">
       </div>
     </div>
     <div class="row align-items-center content">
       <div class="col-md-6 order-2 order-md-1">
-        <img src="imgs/gumball.png" class="img-fluid" alt="">
+        <img src="imgs/sprinkles.png" class="img-fluid" alt="">
       </div>
       <div class="col-md-6 text-center order-1 order-md-2">
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
             <h2>MUSEUM OF CANDY</h2>
             <img src="imgs/lolli_icon.png" class="img-fluid d-none d-lg-inline" alt="">
             <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio voluptatibus odit quasi
@@ -137,6 +137,14 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      })
+    })
+  </script>
 </body>
 
 </html>
