@@ -33,16 +33,41 @@
 //     }
 // }
 
-const seatingChart = [
-    ['Kristen', 'Erik', 'Namita'],
-    ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
-    ['Yuma', 'Sakura', 'Jack', 'Erika']
-];
+// const seatingChart = [
+//     ['Kristen', 'Erik', 'Namita'],
+//     ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+//     ['Yuma', 'Sakura', 'Jack', 'Erika']
+// ];
 
-for (let i = 0; i < seatingChart.length; i++) {
-    const row = seatingChart[i];
-    console.log(`ROW: ${i + 1}`);
-    for (let j = 0; j < row.length; j++) {
-        console.log(row[j]);
+// for (let i = 0; i < seatingChart.length; i++) {
+//     const row = seatingChart[i];
+//     console.log(`ROW: ${i + 1}`);
+//     for (let j = 0; j < row.length; j++) {
+//         console.log(row[j]);
+//     }
+// }
+
+// While loops
+// let count = 0;
+// while (count < 10) {
+//     console.log(count);
+//     count++;
+// }
+
+// const SECRET = "BabyHippo";
+
+// let guess = prompt("enter the secret code...");
+// while (guess !== SECRET) {
+//     guess = prompt("enter the secret code...");
+// }
+// console.log("CONGRATS YOU GOT THE SECRET!!!");
+
+let input = prompt("Hey, say something!");
+while (true) {
+    inout = prompt(input);
+    if (input.toLowerCase() === "stop copying me") {
+        break;
     }
 }
+console.log("OK YOU WIN!")
+
