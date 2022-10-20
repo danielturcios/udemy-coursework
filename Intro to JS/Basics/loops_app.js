@@ -1,3 +1,4 @@
+// ==============  FOR LOOPS  ==============
 // for (let num = 1; num <= 10; num++) {
 //     console.log(num);
 // }
@@ -33,11 +34,11 @@
 //     }
 // }
 
-// const seatingChart = [
-//     ['Kristen', 'Erik', 'Namita'],
-//     ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
-//     ['Yuma', 'Sakura', 'Jack', 'Erika']
-// ];
+const seatingChart = [
+    ['Kristen', 'Erik', 'Namita'],
+    ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+    ['Yuma', 'Sakura', 'Jack', 'Erika']
+];
 
 // for (let i = 0; i < seatingChart.length; i++) {
 //     const row = seatingChart[i];
@@ -47,7 +48,7 @@
 //     }
 // }
 
-// While loops
+// ==============  While loops  ==============
 // let count = 0;
 // while (count < 10) {
 //     console.log(count);
@@ -62,12 +63,34 @@
 // }
 // console.log("CONGRATS YOU GOT THE SECRET!!!");
 
-let input = prompt("Hey, say something!");
-while (true) {
-    inout = prompt(input);
-    if (input.toLowerCase() === "stop copying me") {
-        break;
-    }
+// let input = prompt("Hey, say something!");
+// while (true) {
+//     inout = prompt(input);
+//     if (input.toLowerCase() === "stop copying me") {
+//         break;
+//     }
+// }
+// console.log("OK YOU WIN!")
+
+// ==============  For...Of Loops  ==============
+const subreddits = ['cringe', 'books', 'chickens', 'funny', 'pics', 'soccer', 'gunners'];
+
+for (let i = 0; i < subreddits.length; i++) {
+    console.log(`Visit reddit.com/r/${subreddits[i]}`);
 }
-console.log("OK YOU WIN!")
+
+for (let subreddit of subreddits) {
+    console.log(`Visit reddit.com/r/${subreddit}`);
+}
+
+// see lines 37-49
+// for (let row of seatingChart) {
+//     for (let student of row) {
+//         console.log(student);
+//     }
+// }
+
+// for (let char of "hello world") {
+//     console.log(char);
+// }\
 
